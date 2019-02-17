@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="/getInfo" method="get">
+		<div class="username">
+			<label for="username">姓名：</label>
+			<input  id="username" type="text" name="username" placeholder="用户名" />
+		</div>
+		<div class="password">
+			<label for="password">密码：</label>
+			<input type="password" name="password" id="password">
+		</div>
+		<div class="">
+			<label>性别：</label>
+
+		</div>
+		<div class="爱好">
+             <input type="checkbox" name="hobby" value="data">data
+             <input type="checkbox" name="hobby" value="lvyou">旅游
+             <input type="checkbox" name="hobby" value="chongwu">宠物
+		</div>
+		<div class="sex"> 
+			<label>取向</label>
+			<input type="radio" name="like" value="male">男
+			<input type="radio" name="like" value="female">女
+		</div>
+		<div>
+			<input type="file" name="myfile" accept="image/png">
+		</div>
+		<div class="sex"> 
+			<label>性别</label>
+			<input type="radio" name="sex" value="male">男
+			<input type="radio" name="sex" value="female">女
+		</div>
+	
+	    <div class="textarea">
+	    	<label>评论我的car</label>
+	    	<textarea name="textarea">
+	    		
+	    	</textarea>
+	    </div>
+	    	<div class="select">
+			<select>
+			<option value="beijing">萨博</option>
+			<option value="shanghai">上海</option>
+			<option value="guangzhou">广州</option>
+			</select>
+	    </div>
+		<div><button>提交</button></div>
+	</form>
+</body>
+</html>
