@@ -3,20 +3,49 @@
 <head>
 	<title></title>
 	<style type="text/css">
-	   ul .feature{
-              height:100px;
-              width:100px;
-              background-color: #ffe200;
-              border-radius: 50px;
-              display: inline-block;
-	   }
+	     .layout{
+	     	width:600px;
+	     	margin:0 auto;
+	     }
+	    .btn{
+	    	display: inline-block;
+	    	padding:8px 10px;
+	    	text-decoration: none;
+	    	border-radius: 3px;
+	    	transition:all .3s;
+	    }
+	    .btn:hover{
+	    	box-shadow: 0 8px 16px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+	    }
+	    .btn.steal{
+	    	background-color:#009688;
+	    	color:white;
+	    }
+	    .btn.yellow{
+	    	background-color: yellow;
+	    	color:black;
+	    }
+	    .btn.orange{
+	    	background-color: orange;
+	    	color:black;
+	    }
+	    .btn.red{
+	    	background-color:red;
+	    	color:white;
+	    }
+	    .btn.green{
+	    	background-color:green;
+	    	color:white;
+	    }
 	</style>
 </head>
 <body>
-   <ul>
-   	<li class="feature"></li>
-   	<li class="feature"></li>
-   	<li class="feature"></li>
-   </ul>
+     <div class="layout">
+     	<a href="#" class="btn steal">steal</a>
+     	<a href="#" class="btn yellow">yellow</a>
+     	<a href="#" class="btn orange">orange</a>
+     	<a href="#" class="btn red">red</a>
+     	<a href="#" class="btn green">green</a>
+     </div>
 </body>
 </html>
