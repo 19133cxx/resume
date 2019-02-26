@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.layout{
+			width:800px;
+			margin:0 auto;
+		}
+		.layout h1{
+			text-align:center;
+			color:#666;
+			padding-bottom:10px;
+			border-bottom: 1px solid #ccc
+		}
+		.container{
+			list-style:none;
+			margin-left:-10px;
+		}
+		ul,li{
+			margin:0px;
+			padding:0px;
+		}
+		.container .h-card{
+			margin-left:10px;
+			float:left;
+			width:260px;
+		    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+		}
+		.container>li{
+			margin-top:30px;
+		}
+		.h-card>img{
+			width:100%;
+			opacity: 0.75
+		}
+		.container:after{
+			content:'';
+			display: block;
+			clear:left;
+		}
+		.h-card .detail{
+			padding:1px 16px;
+			text-align: center
+		}
+
+		
+	</style>
+</head>
+<body>
+   <div class="layout">
+   	   <h1>风景列表</h1>
+   	    <ul class="container">
+   	    	<li class="h-card">
+   	    		<img src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6">
+   	    		<div class="detail"><p>风景如画</p></div>
+   	    	</li>
+   	    	<li class="h-card">
+   	    		<img src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6">
+   	    		<div class="detail"><p>风景如画</p></div>
+   	    	</li>
+   	    	<li class="h-card">
+   	    		<img src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6">
+   	    		<div class="detail"><p>风景如画</p></div>
+   	    	</li>
+   	    	<li class="h-card">
+   	    		<img src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6">
+   	    		<div class="detail"><p>风景如画</p></div>
+   	    	</li>
+   	        <li class="h-card">
+   	        	<img src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6">
+   	        	<div class="detail"><p>风景如画</p></div>
+   	        </li>
+   	    	<li class="h-card">
+   	    		<img src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6">
+   	    		<div class="detail"><p>风景如画</p></div>
+   	    	</li>
+
+   	    </ul>
+   </div>
+</body>
+</html>
